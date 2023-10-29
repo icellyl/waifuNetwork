@@ -36,7 +36,7 @@ use LDAP\Result;
     </header>
     <img src="imagens/paisana3.png" alt="" class="img" id="img">
     <div class="container1">
-        <form action="index.php" class="formulario" method="POST">
+        <form action="waifuNetwork.php" class="formulario" method="POST">
             <fieldset>
                 <legend class="legend">Sing in</legend>
                 <div class="inputBox">
