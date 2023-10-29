@@ -8,6 +8,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 
 
     $conexao = new mysqli($dbHost, $dbUsername, $dbPassword, $dbName);
+    if($conexao->connect_errno)
+    {
+        echo "Erro";
+    }
+    else
+    {
+        echo "Conexão efetuada com sucesso";
+    }
 
     $email = $_POST['email'];
     $senha = $_POST['senha'];
